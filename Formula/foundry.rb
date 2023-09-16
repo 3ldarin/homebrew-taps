@@ -1,7 +1,8 @@
 class Foundry < Formula
-  desc "Foundry is a smart contract development toolchain. Foundry manages your
-  dependencies, compiles your project, runs tests, deploys, and lets you
-  interact with the chain from the command-line and via Solidity scripts."
+  # desc "Foundry is a smart contract development toolchain. Foundry manages your
+  # dependencies, compiles your project, runs tests, deploys, and lets you
+  # interact with the chain from the command-line and via Solidity scripts."
+  desc "Smart contract development toolchain"
   homepage "https://book.getfoundry.sh"
   url "https://github.com/some/package.git",
       revision: "ae89c92ee32b38d525429fe9c216a0919bc7bed1"
