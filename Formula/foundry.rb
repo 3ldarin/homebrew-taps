@@ -1,5 +1,7 @@
 class Foundry < Formula
-  desc "Foundry is a smart contract development toolchain. Foundry manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command-line and via Solidity scripts."
+  desc "Foundry is a smart contract development toolchain. Foundry manages your
+  dependencies, compiles your project, runs tests, deploys, and lets you
+  interact with the chain from the command-line and via Solidity scripts."
   homepage "https://book.getfoundry.sh"
   url "https://github.com/some/package.git",
       revision: "ae89c92ee32b38d525429fe9c216a0919bc7bed1"
@@ -15,10 +17,10 @@ class Foundry < Formula
   end
 
   def install
-    system *foundry_cargo_call(path: "./crates/forge")
-    system *foundry_cargo_call(path: "./crates/cast")
-    system *foundry_cargo_call(path: "./crates/chisel")
-    system *foundry_cargo_call(path: "./crates/anvil")
+    system(*foundry_cargo_call(path: "./crates/forge"))
+    system(*foundry_cargo_call(path: "./crates/cast"))
+    system(*foundry_cargo_call(path: "./crates/chisel"))
+    system(*foundry_cargo_call(path: "./crates/anvil"))
   end
 
   test do
