@@ -4,7 +4,7 @@ class Foundry < Formula
   # interact with the chain from the command-line and via Solidity scripts."
   desc "Smart contract development toolchain"
   homepage "https://book.getfoundry.sh"
-  url "https://github.com/some/package.git",
+  url "https://github.com/foundry-rs/foundry.git",
       revision: "ae89c92ee32b38d525429fe9c216a0919bc7bed1"
   version "0.2.0"
   license any_of: ["Apache-2.0", "MIT"]
